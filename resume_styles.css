@@ -1,0 +1,74 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    width: auto;
+    border: 2px solid black;
+    padding: 1px 1px 1px 1px;
+    background-color: transparent;  
+}
+
+.name{
+   text-align: center;
+    font-size: 40px;
+}
+
+.sub_title{
+    margin-top: 4px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.sub-heading{
+    width:fit-content;
+    background-color: #dee3eb;
+    padding: 10px;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+    margin-top: 1px;
+}
+
+.block{
+    margin-bottom: 1px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.education{
+   text-align: center;
+    font-size: 40px;
+    margin-bottom: 1px;
+}
+
+.education_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.edu-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.edu-left {
+  text-align: left;
+  margin: 0;
+  width: 80%;
+}
+
+.edu-right {
+  text-align: right;
+  margin: 0;
+  white-space: nowrap;
+  width: 20%;
+}
